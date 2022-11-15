@@ -1,0 +1,176 @@
+@font-face {
+    font-family:'idroid' ;
+    src: url(fontes/idroid.otf);
+}
+body{
+    background-color: aquamarine;
+}
+header{
+    margin: -10px -10px;
+    text-align: center;
+    background-image: linear-gradient(0deg,rgb(67, 121, 113),rgb(80, 208, 159));
+    color: white;
+    padding: 20px;
+}
+header p {
+    color: white;
+}
+#head{
+    text-align:center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    background-color: rgb(67, 121, 113);
+    margin: -10px;
+    padding: 10px;
+
+}
+nav a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgba(80, 208, 159, 0.126);
+    border: 2px solid rgb(0,0,0,.2);
+    box-shadow: 0 0 5px 5px rgb(0,0,0,.2);
+}
+#central{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    
+}
+#princ{
+    margin-top: -21px;
+    background-color: white;
+}
+.fundo{
+    background-color: white;
+    margin-top: -20px;
+    color: green;
+}
+.fim{
+    background-color: white;
+    padding: 10px;
+    margin-top: -10px;
+}
+h1{
+    color: green;
+    text-rendering: 20px;
+    font-family:'idroid' ;
+    padding-left: 10px;
+}
+h2{
+    font-family:'idroid' ;
+    background-image: linear-gradient( 30deg, rgba(80, 208, 159, 0.47),white);
+    padding-left: 10px;
+}
+h3{
+    color: white;
+    background:rgb(67, 121, 113);
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+    text-indent: 10px;
+    margin: 10px;
+}
+#irina{
+    text-align: center;
+    
+}
+#irina-img{
+    max-width: 100%;
+    width: 100%;
+}
+#bug{
+    text-align: center;
+}
+#lista {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    
+    
+    
+}
+#dan-droids{
+    text-align: center;
+}
+#assuntos{
+    margin: 5px;
+    background-color: rgb(184, 184, 211);
+    padding-bottom: 20px;
+    border-radius: 5px 5px 5px 5px;
+    
+
+}
+#assuntos ul li{
+    color: black;
+    list-style: none;
+}
+#direito ul li a::before{
+   content:'✔';
+   
+}
+footer{
+    text-align: center;
+    background-color:  rgb(67, 121, 113);
+    margin: -10px;
+    color: white;
+    
+}
+@media(max-width:500px){
+       #dan {
+        display: block;
+        width: 300px;
+        max-width: 100%;
+       } 
+
+       #irina-img{
+        width: 100%;
+       }
+       #lista{
+        display: block;
+        max-width: 100%;
+       }
+       #bug-img{
+        max-width: 100%;
+
+       }
+       #esquerdo{
+        margin-top: -12px;
+       }
+
+    
+}
+@media(max-width:900px){
+    #dan {
+     display: block;
+     width: 500px;
+     max-width: 100%;
+ }
+    #irina {
+        margin: auto;
+    }
+
+    #irina-img{
+        width: 600px;
+        max-width: 100%;
+    }
+    #central{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+ 
+}
